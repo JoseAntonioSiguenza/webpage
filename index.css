@@ -13,7 +13,8 @@
 
 */
 
-p{color:pink}
+p{color:pink;}
 
-body {background: lightgreen
+body {
+  background-color: coral;
 }
