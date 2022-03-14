@@ -17,19 +17,13 @@ p{color:pink;}
 
 body {
   background-color: lightgreen;
-}
-
-body {
-  background-color: pink;
   font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .center {
   margin: auto;
   width: 60%;
-
-  
-  background-color: lightblue;
+  background-color: green;
   padding-top: 25px;
   padding-right: 90px;
   padding-bottom: 74px;
@@ -37,5 +31,15 @@ body {
   text-align: center;
   font-family: "Lucida Console", "Courier New", monospace;
   background-image: url("img_tree.gif"), url("paper.gif");
-
 }
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
