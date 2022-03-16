@@ -27,7 +27,6 @@
     explain your solution.
 
 */
-
 ul.a {
   list-style-type: circle;
 }
@@ -123,7 +122,16 @@ p{
 color:gray;
 font-size: 14px;
 }
+p.projects{margin-left: 5px;
+			font-size: 15px;
+            color:black
+}
 
 h3{
 font-size: 12px;
+}
+img.projects {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
