@@ -7,14 +7,60 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- do not change the markup -->
-    <div class="center">
+   
+ <div class="center">
     <h1>Portfolio</h1>
     </div>
     
 
 <div class="footer">
-  <p>image_github GitHub:      image_tw Twitter:       Resume:       Mail:.</p>
+
+  <h3>image_github GitHub:      image_tw Twitter:       Resume:       Mail:.</h3>
 </div>
+<h2>Description:
+  <button type="button" class="collapsible">Brief introduction</button>
+  <div class="content">
+    <p>Hello there! My name is José Antonio Sigüenza and I'm a profoundly courious individual constantly looking for challenges and passionate for science. I found myself specially triggered for those topics related to Chemistry, Computer Science and Physics. I'm also conviced in diversity when working in teams. When ideas are shared and discussed, different points of view are taken in consideration which can solve problems.</p>
+  </div>
+</h2>
+<h2>Projects:
+  <button type="button" class="collapsible">Completed projects</button>
+  <div class="content">
+    
+    <a href="url">link text</a> <a href="url">link text</a> <a href="url">link text</a>
+  </div>
+</h2>
+
+<h2>Credentials:
+  <button type="button" class="collapsible">Studies and experience</button>
+  <div class="content">
+
+    <ul class="a">
+      <li>4th year of Chemical Engineering at ESPOL, Guayaquil, Ecuador.</li>
+      <li>1 year experience as research assitant.</li>
+      <li>1 year experience as open-source contributor.</li>
+      <li>Take "Introduction to Data Science" as extra credit and pass with 90/100</li>
+    </ul>
+  </div>
+</h2>
+
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
 </body>
 </html>
