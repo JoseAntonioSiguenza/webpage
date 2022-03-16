@@ -13,7 +13,29 @@
 
 */
 
-p{color:pink;}
+/*
+    
+    INSTRUCTIONS
+
+    Using CSS properties alone, recreate this button: 
+
+        https://i.imgur.com/gnZnY.png. 
+
+    Spend no longer than 15 minutes on it, we don't 
+    expect it to be a perfect match. It's open book, 
+    feel free to hit Google but be prepared to 
+    explain your solution.
+
+*/
+
+ul.a {
+  list-style-type: circle;
+}
+ul li {
+  color: gray;
+  margin: 3px;
+  font-size: 14px;
+}
 
 body {
   background-color: lightgreen;
@@ -24,22 +46,84 @@ body {
   margin: auto;
   width: 60%;
   background-color: green;
-  padding-top: 25px;
+  padding-top: 5px;
   padding-right: 90px;
-  padding-bottom: 74px;
+  padding-bottom: 12px;
   padding-left: 90px;
   text-align: center;
   font-family: "Lucida Console", "Courier New", monospace;
-  background-image: url("img_tree.gif"), url("paper.gif");
+  color: white
 }
 
 .footer {
    position: fixed;
    left: 0;
    bottom: 0;
+   padding-up:100 px;
    width: 100%;
    background-color: black;
    color: white;
    text-align: center;
 }
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 15px;
+}
 
+.active, .collapsible:hover {
+  background-color: #555;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color: #f1f1f1;
+  padding-bottom: 3px;
+  
+  
+}
+h2 {  margin: auto;
+ 
+  color:white;
+  padding-top: 15px;
+  
+  padding-bottom: 50px;
+  padding-left: 10px;
+  text-align: left;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 17px;
+  }
+p{
+color:gray;
+font-size: 14px;
+}
+
+h3{
+font-size: 12px;
+}
