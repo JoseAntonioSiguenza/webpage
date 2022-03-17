@@ -148,11 +148,11 @@ h2.presentation{
           padding-left: 90px;
           text-align: center;
           font-size: 14px;
+          background-image:url("molecule_bg.png");
 }
 p.presentation{
 		margin:auto;
           width: 75%;
-          background-image:url("molecule_bg.png");
           background-color:black;
           padding-top: 8px;
           padding-right: 90px;
