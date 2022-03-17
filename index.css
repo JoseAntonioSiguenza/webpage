@@ -54,7 +54,9 @@ body {
   color: white
  
 }
-
+img {
+	border-radius: 50%;
+}
 .footer {
    position: fixed;
    left: 0;
