@@ -39,7 +39,6 @@ ul li {
 body {
   background-color: lightgreen;
   font-family: "Lucida Console", "Courier New", monospace;
-   background-image: url("img_tree.gif"), url("paper.gif");
 }
 
 .center {
@@ -119,6 +118,7 @@ h2 {  margin: auto;
   text-align: left;
   font-family: "Lucida Console", "Courier New", monospace;
   font-size: 17px;
+  background-image: "molecule_bg.png";
   }
 p{
 color:gray;
