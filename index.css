@@ -141,7 +141,6 @@ img.projects {
 h2.presentation{
 		margin:auto;
           width: 75%;
-          background-image:url("img_tree.gif");
           background-color:black;
           padding-top: 90px;
           padding-right: 90px;
@@ -153,7 +152,7 @@ h2.presentation{
 p.presentation{
 		margin:auto;
           width: 75%;
-          background-image:url("img_tree.gif");
+          background-image:url("molecule_bg.png");
           background-color:black;
           padding-top: 8px;
           padding-right: 90px;
