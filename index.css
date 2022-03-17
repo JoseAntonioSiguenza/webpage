@@ -149,6 +149,7 @@ h2.presentation{
           text-align: center;
           font-size: 14px;
           background-image:url("molecule_bg.png");
+	background-repeat: no-repeat;
 }
 p.presentation{
 		margin:auto;
