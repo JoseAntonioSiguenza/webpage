@@ -120,7 +120,6 @@ h2 {  margin: auto;
   text-align: left;
   font-family: "Lucida Console", "Courier New", monospace;
   font-size: 17px;
-  background-image: "molecule_bg.png";
   }
 p{
 color:gray;
@@ -140,7 +139,7 @@ img.projects {
   margin-right: auto;
 }
 .intro-img{
-  background-image: url("molecular_bg.png"); /* The image used */
+  background-image: url("Screen Shot 2022-03-18 at 11.13.51.png"); /* The image used */
   background-color: #cccccc; /* Used if the image is unavailable */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
