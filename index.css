@@ -140,7 +140,7 @@ img.projects {
   margin-right: auto;
 }
 .intro-img{
-  background-image: url("molecule_bg.png"); /* The image used */
+  background-image: url("molecular_bg.png"); /* The image used */
   background-color: #cccccc; /* Used if the image is unavailable */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
