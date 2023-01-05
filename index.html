@@ -1,82 +1,259 @@
 <link rel="stylesheet" type="text/css" href="https://joseantoniosiguenza.github.io/webpage/index.css">
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio-Jose Sigüenza</title>
-</head>
-<body>
- <div class="center">
-      <h1>Portfolio</h1>
-</div>
-<div class ="intro-img">
-	<h2 class="presentation">"One never notices what has been done; one can only see what remains to be done"</h2>
-	<h2 class="presentation">-Marie Curie.</h2>
-</div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel='stylesheet' href='index.css'>
+        <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    </head>
+    <body>
+        
+        <header>
+            <!-- <p class='hc'>adewdw<br></p> -->
+            <!-- <a href='#' class='logo'>Chemical Engineer. -->
+            <h1>
+                
+                <span>Pursuing<br></span></div>
+                <!-- <p class ='hc'>dewdwedw</p> -->
+                <div class="message">
+                <div class="word1">#CompChem.</div>
+                <div class="word2">#AI.</div>
+                <div class="word3">#Code.</div>
+                
+            </h1>
+            
+            
+            
+            <!-- </a> -->
+            <ul class='navlist'>
+                <li><a href='#home' class='active'>Home</a></li>
+                <li><a href='#about'>About Me</a></li>
+                <li><a href='#portfolio' >Selected works</a></li>
+            </ul>
+        <div class ='bx bx-menu' id='menu-icon'>
+
+        </div>
+        </header>
+        <section class='home' id='home'>
+            <div class='home-text'>
+                <div class='slide'>
+                    <span class='one'>Hello, </span>
+                    <span class='two'>I'm</span>
+                </div>
+                <h1>
+                    José Antonio Sigüenza
+                </h1>
+                <p>Profoundly courious individual constantly looking for challenges and passionate<br> for science. I found myself specially triggered about topics related to Chemistry,<br> Computer Science and Physics.<br>
+                    <img href='CV_Siguenza.pdf' class ='socials' src='download.png' width='13' height='13' border-radius='50%'>
+                    <!-- <i class='fa fa-download'></i> -->
+                    <a href='CV_Siguenza.pdf' class='resume' style='color:rgb(240, 230, 96)'>Download Resume</a>
+                </p>
+
+                <!-- <button class='cv-button'> -->
+                
+                
+                <!-- </button> -->
+            </div>
+    
+        </section>
+
+        <section class='about' id='about'>
+            
+
+       
+           <div class='about-content'>Hello everyone!<br> I am an undergraduate student from Ecuador in his last year of Chemical Engineering at ESPOL University.<br> 
+            Since 2022. I have been part of summer programs, internships and collaborations at organizations<br>
+            such as Google Summer of Code, Toronto University and ESPOL. My work focuses in the application of<br>
+            Deep Learning, Data Science, and AI algorithms for both applied Physics and Chemistry. Currently, I<br>
+            am working as a research assistant at ESPOL modeling a Haber-Bosch process, which converts green<br>
+            hydrogen to ammonia (GH2A) under the "Power to X" field using Python as framework. In addition, I<br>
+            have developed personal projects such as NLP and databases, where other programming languages where<br>
+            used (i.e. Julia, MySQL, and JavaScript).<br>
+            <br>
+            Extracurricular activities are part of my life too. For example, I am part of the TAWS programming<br>
+            club where we organize Hackathons, inclusive activities and talks for students. I also enjoy Latin<br>
+            American literature, specially Cortázar, Borges, and Rulfo. In addition, I love Latin rhythms like<br>
+            salsa, bossa nova and tango. These are part of my life since I started playing these tunes in my<br>
+            guitar about 10 years ago. In addition, I like to learn from other cutltures, which is why I became<br>
+            a language enthusiast, becoming proficient English and Spanish, and intermediate French and Portuguese.
+          </div>
+           <h3 class='work-aboutme'><span>About Me</span></h3>
+           <div class ='about-img'>
+                <img src='b4.png' width="31.6%" style='padding-top: 1.5rem;'>
+                    
+           </div>
+            
+            
+            
+           </div>
+
+        </section>
+
+        <section class='portfolio' id='portfolio'>
+            <!-- <div class='port-content1'>Description:</div> -->
+            <div class='port-content'>
+            
+                There are nearly 30'000 molecules that we humans know about, let's<br>
+                find out more of them!<br>
+                Normalizing Flows is a generative model that performs non-linear<br>
+                transformations between probability distributions. It starts with<br>
+                a base case (i.e. Gaussian, Bernoulli, Pareto) and applies<br>
+                transformations on the distribution based on a known molecule dataset<br>
+                (QM9). This transformed distribution can take samples and find new<br>
+                molecules. <br>
+                <a href='https://github.com/deepchem/deepchem/blob/master/deepchem/models/torch_models/normalizing_flows_pytorch.py' style='font-family:"Poppins"; color:rgba(255, 114, 32, 0.712)'>Source code</a>
+                <p class='info1'>Institution: Google Summer of Code, 2022.<br>Language: Python.<p>
+                   
+ 
+            </div>
+               <h3 class='work-aboutme'><span>Selected works</span></h3>
+               <p class='titles'>Normalizing Flows</p>
+               <div class ='about-img-port'>
+                    <img src='work1.png' width="60%">
+                        
+               </div>
+                
+                
+                
+               </div>
+
+               <!-- <div class='port-content3'>Description:</div> -->
+               <div class='port-content2'>
+                Natural Language Processing (NLP) is an key tool for interpretation<br>
+                and is used in different fields such as chatbots, translators, and<br>
+                science. BERT transformers are an important part of NLP, as they are<br>
+                algorithms that learn from the context defined by a user. ESPOL Q&A<br>
+                Website is a question and answer program where the user can ask<br>
+                questions about ESPOL University and get the answers through the use<br>
+                of BERT transformers. In order to be able to respond to the user,<br>
+                ESPOL Q&A Website gathers data using web scrapping, from official and<br>
+                reviewed sites, each time a question is being asked. Overall, this<br>
+                project proves the various uses of BERT transformers, from  Q&A<br>
+                websites to life sciences.<br>
+                   <a href='https://github.com/JoseAntonioSiguenza/Bert_espol' style='font-family:"Poppins"; color:rgba(255, 114, 32, 0.712)'>Source code</a>
+                   <p>Institution: ESPOL University, TAWS Programming Club, 2022.<br>Language: Python, HTML, MySQL.</p>
+                     
+                </div>
 
 
+                <p class='titles'>ESPOL Q&A Website</p>
+                  <div class ='about-img-port'>
+                       <img src='work2.png' width="60%">
+                           
+                </div>
+                
+                   
+                   
+                </div>
 
-<h2>Description:
-  <button type="button" class="collapsible">Brief introduction</button>
-  <div class="content">
-    <p>Hello there! My name is José Antonio Sigüenza and I'm a profoundly courious individual constantly looking for challenges and passionate for science. I found myself specially triggered for those topics related to Chemistry, Computer Science and Physics. I'm also conviced in diversity when working in teams. When ideas are shared and discussed, different points of view are taken in consideration which can solve problems.</p>
-  </div>
-</h2>
-<h2>Projects:
-  <button type="button" class="collapsible">Completed projects</button>
-  <div class="content">
-	<p class="projects">Research project:</p>
-      <a href="https://en.wikipedia.org/wiki/GitHub"><img class="projects" src="github.png" alt="github.com" width="40" height="40">
-          </a><p> This project aproach a NLP task of Question-Answer using Django as framework.
-      </p>
-      <p class="projects">BERT:</p>
-      <a href="https://en.wikipedia.org/wiki/GitHub"><img class="projects" src="github.png" alt="github.com" width="40" height="40">
-          </a><p> This project aproach a NLP task of Question-Answer using Django as framework.
-      </p>
-      <p class="projects">Cryptos and social rumoring:</p>
-      <a href="https://en.wikipedia.org/wiki/GitHub"><img class="projects" src="github.png" alt="github.com" width="40" height="40">
-          </a><p> This project aproach a NLP task of Question-Answer using Django as framework.
-      </p>
-  </div>
-</h2>
+            <!-- <div class='port-content5'>Description:</div> -->
+            <div class='port-content4'>
+                In Ecuador, agro-industries were built under empirical knowledge but<br>
+                there is a growing opportunity for technology. Data Science and AI are<br>
+                powerful tools that can be used to computerized methods and optimize<br>
+                processes.<br>
 
-<h2>Credentials:
-  <button type="button" class="collapsible">Studies and experience</button>
-  <div class="content">
+                Essential Oils Optimization is a multivariate optimization that maximizes<br>
+                yield while minimizing costs. The main structure of this work is to get<br>
+                the inputs and outputs of the essential oils industry as vectors and<br>
+                perform a regression on them. Once the regression presents a considerable<br>
+                result, based on MSE and R^2, the multivariate optimization algorithm<br>
+                determines the conditions for the facility to work.<br>
+                <p class='info2'>Institution: ESPOL and University of Toronto Collaboration, 2021.<br>Language: Python.</p>
+ 
+            </div>
+               <!-- <h3 class='work-aboutme'><span>Selected works</span></h3> -->
+               <p class='titles1'>Essential Oils Optimization</p>
+               <div class ='about-img-port'>
+                    <img src='work3.png' width="50%">
+                        
+               </div>
+                
+                
+                
+               </div>
 
-    <ul class="a">
-      <li>4th year of Chemical Engineering at ESPOL, Guayaquil, Ecuador.</li>
-      <li>1 year experience as research assitant.</li>
-      <li>1 year experience as open-source contributor.</li>
-      <li>Take "Introduction to Data Science" as extra credit and pass with 90/100</li>
-    </ul>
-  </div>
-  <div class="footer">
+   
 
-    <h3><a href="https://en.wikipedia.org/wiki/GitHub"><img src="github.png" alt="github.com" width="40" height="40">@JoseAntonioSiguenza</a>
-	<a href="https://en.wikipedia.org/wiki/GitHub"><img src="twitter.png" alt="twitter.com" width="40" height="40">@SiguenzaPolo</a>
-    </h3>
-  </div>
-</h2>
+            <!-- <h3 class='work-portfolio'><span>Selected works</span></h3><br> -->
+            
+            
+           
+
+<!--             
+            <div class='half'>
+                    <img src='work1.png' style='width:50%; background:linear-gradient(white, black);'>
+            </div>
+
+            <h3 class='portfolio-content'>
+                Lor kdomodedkfweldjkmfklsjklsmdklcmsklcmsklnfcklsncvjknafklnsadknvsakfnvksmfdnvmdsnvmnsdaklvcnadksn
+            </h3> -->
+<!-- 
+            <h3 class='portfolio-content'>
+                Lor kdomodedkfweldjkmfklsjklsmdklcmsklcmsklnfcklsncvjknafklnsadknvsakfnv<br>ksmfdnvmdsnvmnsdak<br>lvcnadksn<br>fkldasnfkldjsfkljad<br>slkfjdklsjfl<br>kdsajflkadjsflkjdaslk<br>fjlkdsjflkdasjflkdjsaflkdjsfkljdskljfkdsjfkladsjfldajflksjfsal
+            </h3>
+
+            <h3 class='portfolio-content'>
+                Lor kdomodedkfweldjkmfklsjklsmdklcmsklcmsklnfcklsncvjknafklnsadknvsakfnv<br>ksmfdnvmdsnvmnsdak<br>lvcnadksn<br>fkldasnfkldjsfkljad<br>slkfjdklsjfl<br>kdsajflkadjsflkjdaslk<br>fjlkdsjflkdasjflkdjsaflkdjsfkljdskljfkdsjfkladsjfldajflksjfsal
+            </h3> -->
+
+                <!-- <img class='img-port' src='work2.png' style='width:80%'><br>
+                    <p class='portfolio-content'>
+                        Lor kdomod
+                        <span>Lorem ipsum</span>
+                    </p><br>
+                <img class='img-port' src='b3.png' style='width:80%'><br>
+                    <p class='portfolio-content'>
+                            Lor kdomod
+                            <span>Lorem ipsum</span>
+                    </p><br>
+            </div>
+            <div class='button'>
+                <a href='#about' class='btn2'><span><i class ='bx bx-play'></i></span>See my work!</a>
+            </div> -->
+        </section>
+
+        <!-- <section class='socials'>
+            <h3><span>Socials</span></h3>
+            <h3 class='socials-content'>Github:</h3>
+            <a href='github.com' class='link-socials'>@JoseAntonioSiguenza</a>
+                 Piner link a github -->
+            <!-- <h3 class='socials-content'>Twitter:</h3>
+            <a href='twitter.com' class='link-socials'>@SiguenzaPolo</a> -->
+                <!-- Poner link a twitter -->
+        <!-- </section> -->
+        <ul class='footer'>
+          
+            <li><a href='https://github.com/JoseAntonioSiguenza' style='color: rgb(216, 216, 216); font-family: "Poppins";'>
+                <img class ='socials' src='github.png' width='20' height='20' border-radius='50%'>
+                @JoseAntonioSiguenza</a></li><br>
+            <li><a href='https://twitter.com/SiguenzaPolo' style='color: rgb(196, 196, 196); font-family: "Poppins" ; margin-bottom: 4rem'>
+                <img class = 'socials' src='twitter.png' width='20' height='20' border-radius='50%'>
+                @SiguenzaPolo</a></li>
+           
+        </ul>
 
 
-
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    } 
-  });
-}
-</script>
-</body>
+    
+        <script type ='text/javascript' src='script.js'></script>
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight){
+                  content.style.maxHeight = null;
+                } else {
+                  content.style.maxHeight = content.scrollHeight + "px";
+                } 
+              });
+            }
+        </script>
+    </body>
 </html>
