@@ -92,7 +92,7 @@ header{
 .navlist a{
     color: var(--second-color);
     font-family:'Poppins';
-    font-size: 17px;
+    font-size: 23px;
     font-weight: 500;
     margin: 0 25px;
     transition: all .45s ease;
@@ -172,8 +172,17 @@ h1 span {
     /* top: 20px; */
     left: 130px;
     bottom: 0.5rem;
-    animation: openclose 5s ease-in-out infinite;
+    /* animation: openclose 5s ease-in-out infinite; */
   }
+
+  .message {
+    display: block; /* Aligns items in a row */
+    flex-direction: column; /* Stacks items vertically */
+    align-items: center; /* Centers items horizontally */
+    justify-content: center; /* Centers items vertically */
+    gap: 1rem; /* Adds space between words */
+    margin-top: 2rem; /* Adjusts spacing from top */
+}
   
 .word1, .word2, .word3 {
     font-family:"Courier New";
@@ -182,6 +191,7 @@ h1 span {
     /* padding-left: 12rem;  */
     font-weight: 10;
     border-top: 3.2rem;
+    animation: openclose 5s ease-in-out infinite;
     /* height:2rem; */
     /* top: 6rem; */
     /* bottom: 0.5rem;
@@ -267,6 +277,7 @@ h1 span {
         }  
   }
   
+  
   .home-text p{
       color: var(--second-color);
       font-family: 'Poppins';
@@ -346,7 +357,7 @@ p{
     white-space: nowrap;
 }
 
-.port-content{
+.port-content {
     margin-left:43rem;
     display: block;
     line-height: 2;
@@ -357,8 +368,11 @@ p{
     font-family: 'Poppins';
     white-space: nowrap;
     background: rgba(45, 51, 53, 0.986);
-    margin-bottom: 2rem;
+    margin-bottom: 2rem; /* Adds a subtle shadow for depth */
+    padding: 1rem;
 }
+
+/* Responsive design for smaller screens */
 .port-content2{
     margin-left:43rem;
     display: block;
@@ -371,6 +385,7 @@ p{
     white-space: nowrap;
     background: rgba(45, 51, 53, 0.986);
     margin-bottom: 2rem;
+    padding: 1rem;
 }
 .port-content4{
     margin-left:43rem;
@@ -384,6 +399,7 @@ p{
     white-space: nowrap;
     background: rgba(45, 51, 53, 0.986);
     margin-bottom: 2rem;
+    padding: 1rem;
 }
 
 .port-content1{
@@ -438,18 +454,19 @@ p{
 
 .portfolio{
     padding-top: 3.5rem;
+    background-color: #63636367;
     
 
 }
 .portfolio-content{
     /* padding-left:25rem; */
     display: block;
-    /* font-weight: 400;
+    font-weight: 400;
     overflow: hidden;
     position: absolute;
     padding-top: 10rem;
     font-family: 'Poppins';
-    white-space: nowrap; */
+    white-space: nowrap;
     size: 30px;
     height:30%;
     background: linear-gradient(transparent, rgba(0, 0, 0, 0.7))
@@ -513,3 +530,93 @@ p{
 .footer a:hover{
     color:rgba(149, 85, 209, 0.938)
 }
+
+/* .publications {
+    padding: 2rem;
+} */
+
+.section-title {
+    font-size: 2rem;
+    /* text-align: center; */
+    margin-bottom: 1.5rem;
+
+    color: #ffffff;
+}
+
+.section-subtitle {
+    font-size: 2rem;
+    /* text-align: center; */
+    margin-bottom: 1.5rem;
+
+    color: #ffffff;
+}
+
+.publication-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.publication-item {
+    margin-bottom: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: #dedede;
+}
+
+.publication-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family:"Poppins"; 
+    color: rgb(255, 255, 255);
+    margin-bottom: 0.5rem;
+}
+
+.publication-authors,
+.publication-details {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.about {
+    display: flex; /* Aligns the image and text side-by-side */
+    align-items: center; /* Aligns content vertically */
+    justify-content: center; /* Centers the content horizontally */
+    gap: 0rem; /* Adds spacing between the image and text */
+    padding: 20rem 2rem; /* Adjusts top/bottom and left/right padding */
+    background-color: #1a1a1a; /* Matches the dark background */
+    color: white; /* Ensures text is readable */
+}
+
+.about-content {
+    max-width: 80%; /* Restricts text width for better readability */
+    line-height: 1.6; /* Improves spacing between lines */
+    font-size: 1rem;
+    margin-bottom: 4rem;
+    margin-left: 30rem;
+
+}
+
+/* .about-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); 
+} */
+
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column;
+        padding: 2rem 1rem;
+    }
+
+    .about-content {
+        max-width: 100%;
+        text-align: center; 
+    }
+
+    .about-img {
+        margin-bottom: 2rem;
+    }
+}
+
+
